@@ -1,0 +1,23 @@
+.container {
+  height: 80px;
+  padding: 16px;
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wrapper {
+  max-width: 1224px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  width: 122px;
+  height: 26px;
+  img {
+    width: 122px;
+    height: 26px;
+  }
+}
