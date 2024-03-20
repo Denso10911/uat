@@ -1,6 +1,10 @@
 .container {
     padding: 40px 16px 80px;
     border-bottom: 1px solid #E5E5E5;
+
+    @media screen and (max-width: 768px) {
+        padding: 24px 16px;
+    }
 }
 
 .wrapper {
@@ -26,6 +30,9 @@
     @media screen and (max-width: 1200px) {
         text-align: center;
     }
+    @media screen and (max-width: 768px) {
+        gap: 16px;
+    }
 }
 
 .title {
@@ -35,15 +42,25 @@
     @media screen and (max-width: 1200px) {
         padding: 0 32px;
     }
+    @media screen and (max-width: 768px) {
+        gap: 16px;
+    }
     h1 {
         font-size: 72px;
         font-weight: 500;
         line-height: 76px;
         letter-spacing: -3px;
+        @media screen and (max-width: 768px) {
+            font-size: 44px;
+            line-height: 46px;
+        }
     }
     p {
         font-size: 22px;
         font-weight: 300;
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
     }
 }
 

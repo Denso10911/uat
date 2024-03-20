@@ -1,6 +1,9 @@
 .container {
   padding: 60px 16px 40px;
   border-bottom: 1px solid #E5E5E5;
+  @media screen and (max-width: 768px) {
+    padding: 24px 16px;
+  }
 }
 
 .wrapper {
@@ -12,13 +15,26 @@
   max-width: 1224px;
   width: 100%;
   margin: 0 auto;
+  @media screen and (max-width: 768px) {
+    gap: 24px;
+  }
 }
 
 .title {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
   font-size: 48px;
   font-weight: 500;
   line-height: 76px;
   letter-spacing: -3px;
+  @media screen and (max-width: 1200px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+    line-height: 36px;
+  }
 }
 
 .cards {
